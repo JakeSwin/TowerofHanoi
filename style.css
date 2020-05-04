@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    background-color: #130f40;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #dff9fb;
+    font-size: 2rem;
+}
+
+.container {
+    width: 100%;
+    height: calc(100vh - 82px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top right, #7df8ee, rgb(118, 235, 192));
+}
+
+.game-area {
+    box-sizing: border-box;
+    width: 800px;
+    height: 550px;
+    background-image: linear-gradient(to bottom left, #56E860, #89FF5E);
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 2rem;
+    padding: 2rem;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.col:hover {
+    border: 2px solid white;
+    border-radius: 10px;
+    background: #86e265;
+}
+
+.stand .bottom {
+    height: 30px;
+    width: 200px;
+    background-color: #eb4d4b;
+}
+
+#five {
+    width: 150px;
+    background: rgb(0, 153, 255);
+}
+
+#four {
+    width: 125px;
+    background: rgb(0, 137, 228);
+}
+
+#three {
+    width: 100px;
+    background: rgb(0, 122, 204);
+}
+
+#two {
+    width: 75px;
+    background: rgb(0, 104, 173);
+}
+
+#one {
+    width: 50px;
+    background: rgb(0, 93, 155);
+}
+
+.ring {
+    height: 30px;
+    margin: 0 auto;
+}
