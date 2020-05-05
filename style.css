@@ -1,14 +1,22 @@
 body, html {
     margin: 0;
     background-color: #130f40;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #title {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #dff9fb;
     font-size: 2rem;
+}
+
+#win-msg {
+    position: absolute;
+    z-index: 100;
+    font-size: 4rem;
+    text-decoration: underline;
+    transition: 2s;
 }
 
 .container {
